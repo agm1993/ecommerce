@@ -1,1 +1,313 @@
+/* ===========================================================  Styles for general elements ======================================================== */
+body {
+  background: #F2F3F4;
+}
+form {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  background: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: darkgreen;
+  font-weight: bold;
+}
+a {
+  color: #64ac15;
+  font-size: 12pt;
+  font-weight: bold;
+}
+a:hover {
+  color: darkgreen;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+.white {
+  color: white;
+}
+.errorMessage {
+  color: red; position: relative; top: -10px;
+}
+.logout {
+          font-size: 14pt;
+          color: white;
+          margin-right: 5%;
+         }
+.dashboard {
+          font-size: 14pt;
+          color: white;
+          margin-left: 5%;
+         }
+         
+.logout:hover, .dashboard:hover {
+          font-size: 14pt;
+          color: darkgreen;
+         }
+footer {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+        border-top: 1px solid lightgray;
+        background: lightgray;
+        color: gray;
+      }
+/* ===========================================================  Styles for header ======================================================== */
+      .logo {
+        margin: 10px;
+      }
+      #navbar ul.nav li a {
+        text-align: center;
+        color: white;
+      }
+      #navbar ul.nav li a:hover {
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+      }
+      .navbar {
+        background: darkgreen;
+        color: white;
+      }
+      .container .navbar-brand {
+        color: white;
+      }
+      .navbar-header .navbar-toggle {
+        background: #64ac15;
+        color: white;
+      }
+      .navbar-header .navbar-toggle .icon-bar {
+        color: white;
+      }
+      .navbar-header .navbar-toggle:hover {
+        background: #64ac15;
+      }
+      .navbar-header .navbar-toggle:active {
+        background: #64ac15;
+      }
+/* ==================================================== styles for all background images ======================================================= */
+      .doctorDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/doctor.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .nurseDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/nurse.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .labDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/lab.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .xrayDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/xray.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .pharmacyDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/pharmacy.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .receptionistDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/receptionist.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .accountantDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/accountant.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .adminDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/admin.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
 
+      .col-sm-3 div p {
+        font-size: 18pt;
+        color: white;
+        padding-top: 30px;
+      }
+      .col-sm-3 div {
+        margin-bottom: 20px;
+      }
+      .col-sm-3 a {
+        text-decoration: none;
+      }
+      .col-sm-3 a:hover {
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .addWorkerDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/doctor.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .viewWorkerDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/doctor.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .manageWorkerDiv {
+        border: 0px solid red;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background/doctor.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+        height: 100px;
+        text-align: center;
+      }
+      .col-sm-4 div p {
+        font-size: 18pt;
+        color: white;
+        padding-top: 30px;
+      }
+      .col-sm-4 div {
+        margin-bottom: 20px;
+      }
+      .col-sm-4 a {
+        text-decoration: none;
+      }
+      .col-sm-4 a:hover {
+        text-decoration: none;
+        font-weight: bold;
+      }
+/* ===========================================================  Styles for forms ======================================================== */
+
+input,
+input[type="radio"] + label,
+input[type="checkbox"] + label:before,
+select option,
+select {
+  width: 100%;
+  line-height: 1em;
+  padding: 0.6em;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  font-size: 14pt;
+}
+input:focus {
+  outline: 0;
+  border-color: #64ac15;
+}
+input:focus + .input-icon i {
+  color: #7ed321;
+}
+input:focus + .input-icon:after {
+  border-right-color: #7ed321;
+}
+input[type="submit"] {
+  background: #64ac15;
+  color: white;
+  font-size: 14pt;
+  padding: 0.6em;
+  line-height: 1;
+}
+input[type="submit"]:hover {
+  background: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+.input-group {
+  width: 100%;
+  margin-bottom: 1em;
+  zoom: 1;
+}
+.input-group:before,
+.input-group:after {
+  content: "";
+  display: table;
+}
+.input-group:after {
+  clear: both;
+}
+.input-group-icon {
+  position: relative;
+}
+.input-group-icon input, .input-group-icon select {
+  padding-left: 2.8em;
+}
+.input-group-icon .input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.4em;
+  height: 3.4em;
+  line-height: 3.4em;
+  text-align: center;
+  pointer-events: none;
+}
+.input-group-icon .input-icon:after {
+  position: absolute;
+  top: 0.6em;
+  bottom: 0.6em;
+  left: 3.4em;
+  display: block;
+  border-right: 1px solid #e5e5e5;
+  content: "";
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.input-group-icon .input-icon i {
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
